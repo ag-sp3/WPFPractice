@@ -11,3 +11,4 @@ C:\GitHub\WPFPractice\WPFPractice\WPFPractice3\obj\Debug\WPFPractice3.Properties
 C:\GitHub\WPFPractice\WPFPractice\WPFPractice3\obj\Debug\WPFPractice3.csproj.GenerateResource.Cache
 C:\GitHub\WPFPractice\WPFPractice\WPFPractice3\obj\Debug\WPFPractice3.exe
 C:\GitHub\WPFPractice\WPFPractice\WPFPractice3\obj\Debug\WPFPractice3.pdb
+C:\GitHub\WPFPractice\WPFPractice\WPFPractice3\obj\Debug\WPFPractice3.csprojResolveAssemblyReference.cache

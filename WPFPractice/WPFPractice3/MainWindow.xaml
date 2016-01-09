@@ -23,5 +23,23 @@
                 <Polygon Points="100,25 75,0 0,25 75,50"     Fill="White"/>
             </Grid>
         </Button>
+
+        <ListBox Grid.Column="2" Grid.Row="3">
+            <ListBoxItem x:Name="Toastmaster">
+                <TextBlock Text="Guan, Alex"></TextBlock>
+            </ListBoxItem>
+            <ListBoxItem>Blue</ListBoxItem>
+            <ListBoxItem>Yellow</ListBoxItem>
+            <ListBoxItem>Red</ListBoxItem>
+            <ListBoxItem>
+                <Button>Button</Button>
+            </ListBoxItem>
+        </ListBox>
+
+        <StackPanel Grid.Column="1" Grid.Row="2" VerticalAlignment="Top" Margin="5,5,5,5">
+            <Slider Name="sliderFontSize" Margin="3" Minimum="1" Maximum="100" Value="10" TickFrequency="1" TickPlacement="TopLeft"></Slider>
+            <TextBlock Margin="10" Text="Simple Text" Name="lblSampleText" FontSize="{Binding ElementName=sliderFontSize, Path=Value}" ></TextBlock>
+            <TextBlock Margin="10" Text="Simple Text" Name="lblSampleText2" FontSize="{Binding ElementName=sliderFontSize, Path=Value, Mode=TwoWay}" ></TextBlock>
+        </StackPanel>
     </Grid>
 </Window>
